@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:8000/api';
+const baseURL = 'https://sleepy-chamber-15932.herokuapp.com/api';
 
 
 export const getProducts = async () => {
