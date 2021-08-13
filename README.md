@@ -11,4 +11,4 @@ El frontend fue realizado con Vanilla Javascript, además se usaron herramientas
     * Y por último está el archivo *'selectors.js'* el cual contiene la referencia a los elementos del DOM.
 2. Para empezar se creó una clase (*'classes/App.js'* la cual se instancia en el archivo *'app.js'*) y es la que inicia la aplicación con su método *'startApp()'*.
 3. En la clase App.js, al iniciar la app, se llama al método *'showAllProducts()'* el cual es el encargado de cargar todos los productos después de traer la data de la API, Adémas de esto, también ahí mismo se agrega un event listener que estará a la escucha del evento *'submit'* del pequeño formulario creado para hacer la búsqueda de un producto.
-4. Y creo que eso sería lo básico que hay que explicar, ya que lo resto solo es lógica de programación.
+4. Por último se subió la aplicación a Netlify: [https://youthful-pare-399b8c.netlify.app/index.html](https://youthful-pare-399b8c.netlify.app/index.html) funcionando todo correctamente.
