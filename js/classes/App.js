@@ -7,6 +7,7 @@ export class App {
         this.startApp();
     };
 
+    // Método que dará inicio a mi app
     startApp() {
         window.onload = async () => {
             await showAllProducts(),
